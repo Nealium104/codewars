@@ -24,4 +24,4 @@ const setAlarm = (employed, vacation) => employed === true && vacation === false
 
 ////////////////////////////////////////////////////////////////////
 // What I learned
-// I tried to do the solution that my favorite one did, but I compared with the operator, so I was only checking if they were different. I learned that if you put a ! before the variable, it'll just check if that variable is false. And because booleans are a binary, that would have to mean that the first one, to not be equal, would have to be true.
+// I tried to do the solution that my favorite one did, but I compared with the operator, so I was only checking if they were different. I learned that if you put a ! before the variable, it'll just check if that variable is false. And because booleans are a binary, that would have to mean that the first one, to not be equal, would have to be true. 
