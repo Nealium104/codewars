@@ -1,4 +1,4 @@
-## Welcome to my CodeWars!
+## 👋Welcome to my CodeWars!
 This is my codewars repo. Since February 8th, 2023, I've been doing a code wars every single day. The goal in the short term is 30 days of code, but I think an entire year of code is possible!
 
 ## Template
