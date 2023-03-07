@@ -3,6 +3,7 @@ This is my codewars repo. Since February 8th, 2023, I've been doing a code wars 
 
 ## Template
 Each of my files (except the first few) follow this template:
+
 ////////////////////////////////////////////////////////////////////
 
 // Date Completed
