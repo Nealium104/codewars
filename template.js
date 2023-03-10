@@ -1,24 +1,15 @@
 ////////////////////////////////////////////////////////////////////
-// Date Completed 03-09-23
-// KYU 8
+// Date Completed
+// KYU
 
 
 ////////////////////////////////////////////////////////////////////
 // Prompt
-// Take an array and remove every second element from the array. Always keep the first element and start removing with the next element.
-// Example:
-
-// ["Keep", "Remove", "Keep", "Remove", "Keep", ...] --> ["Keep", "Keep", "Keep", ...]
-
-// None of the arrays will be empty, so you don't have to worry about that!
 
 
 ///////////////////////////////////////////////////////////////////
 // My Solution
-function removeEveryOther(arr) {
-    const result = arr.filter((arrItem, index) => index % 2 === 0);
-    return result;
-    }
+
 
 ////////////////////////////////////////////////////////////////////
 // Favorite Solution
