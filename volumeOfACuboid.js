@@ -1,0 +1,26 @@
+////////////////////////////////////////////////////////////////////
+// Date Completed 04-16-23
+// KYU 8
+
+
+////////////////////////////////////////////////////////////////////
+// Prompt
+// Bob needs a fast way to calculate the volume of a cuboid with three values: the length, width and height of the cuboid. Write a function to help Bob with this calculation.
+
+///////////////////////////////////////////////////////////////////
+// My Solution
+class Kata {
+    static getVolumeOfCuboid(length, width, height) {
+      return length * width * height
+    }
+  }
+
+////////////////////////////////////////////////////////////////////
+// Favorite Solution
+// const Kata = {
+//     getVolumeOfCuboid : (length, width, height) => length * width * height
+//   }
+
+////////////////////////////////////////////////////////////////////
+// What I learned
+// Not much. This one was pretty easy.
