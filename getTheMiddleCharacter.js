@@ -1,0 +1,32 @@
+////////////////////////////////////////////////////////////////////
+// Date Completed 05-14-23
+// KYU 7
+
+
+////////////////////////////////////////////////////////////////////
+// Prompt
+
+
+///////////////////////////////////////////////////////////////////
+// My Solution
+function getMiddle(s){
+    s = s.split('')
+    let middle
+    if(s.length % 2 === 0){
+      middle = s[s.length / 2 - 1] + s[s.length / 2]
+    } else {
+      middle = s[Math.floor(s.length / 2)]                    
+    }
+    return middle
+  }
+
+////////////////////////////////////////////////////////////////////
+// Favorite Solution
+// function getMiddle(s)
+// {
+//   return s.slice((s.length-1)/2, s.length/2+1);
+// }
+
+////////////////////////////////////////////////////////////////////
+// What I learned
+// Always attempt to make things as EASY as possible. Don't overcomplicate simple things like math.
