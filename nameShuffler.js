@@ -1,0 +1,27 @@
+////////////////////////////////////////////////////////////////////
+// Date Completed 06-09-23
+// KYU 8
+
+
+////////////////////////////////////////////////////////////////////
+// Prompt
+// Write a function that returns a string in which firstname is swapped with last name.
+
+// Example(Input --> Output)
+
+// "john McClane" --> "McClane john"
+
+///////////////////////////////////////////////////////////////////
+// My Solution
+const nameShuffler = str => str.split(' ').reverse().join(' ')
+
+////////////////////////////////////////////////////////////////////
+// Favorite Solution
+// function nameSuffle(str){
+//     var arr = str.split(" ");
+//     return arr[1] + ' ' + arr[0]
+//   }
+
+////////////////////////////////////////////////////////////////////
+// What I learned
+// I like the favorite solution. This was pretty easy, but it was cool to see a different way to do it.
