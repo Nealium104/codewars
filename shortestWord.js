@@ -1,0 +1,26 @@
+////////////////////////////////////////////////////////////////////
+// Date Completed 07-15-23
+// KYU 7
+
+
+////////////////////////////////////////////////////////////////////
+// Prompt
+// Simple, given a string of words, return the length of the shortest word(s).
+
+// String will never be empty and you do not need to account for different data types.
+
+
+///////////////////////////////////////////////////////////////////
+// My Solution
+const findShort = s => s.split(' ').sort((a,b) => a.length - b.length)[0].length
+
+////////////////////////////////////////////////////////////////////
+// Favorite Solution
+// function findShort(s){
+//     return Math.min(...s.split(" ").map (s => s.length));
+// }
+
+////////////////////////////////////////////////////////////////////
+// What I learned
+// Good practice on the .sort method!
+// I think the favorite is just better. More concise and readable.
