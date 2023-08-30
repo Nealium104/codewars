@@ -2,7 +2,6 @@
 // Date Completed 04-22-23
 // KYU 7
 
-
 ////////////////////////////////////////////////////////////////////
 // Prompt
 // Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.
@@ -11,7 +10,7 @@
 
 // In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". Your function receives one side of the DNA (string, except for Haskell); you need to return the other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell).
 
-// More similar exercise are found here: http://rosalind.info/problems/list-view/ (source)
+// More similar exercise are found here: http://rosalind.info/problems/list-view/
 
 // Example: (input --> output)
 
@@ -20,20 +19,20 @@
 
 ///////////////////////////////////////////////////////////////////
 // My Solution
-function DNAStrand(dna){
-  dna = dna.split('')
-  for(let i = 0; i < dna.length; i++){
-    if(dna[i] === "A"){
-      dna[i] = "T"
-    }else if(dna[i] === "T"){
-      dna[i] ="A"
-    }else if(dna[i] === "C"){
-      dna[i] = "G"
-    }else {
-      dna[i] = "C"
+function DNAStrand(dna) {
+  dna = dna.split("");
+  for (let i = 0; i < dna.length; i++) {
+    if (dna[i] === "A") {
+      dna[i] = "T";
+    } else if (dna[i] === "T") {
+      dna[i] = "A";
+    } else if (dna[i] === "C") {
+      dna[i] = "G";
+    } else {
+      dna[i] = "C";
     }
   }
-  return dna.join('')
+  return dna.join("");
 }
 
 ////////////////////////////////////////////////////////////////////
@@ -43,7 +42,7 @@ function DNAStrand(dna){
 //       return DNAStrand.pairs[c]
 //     })
 //   }
-  
+
 //   DNAStrand.pairs = {
 //     A: 'T',
 //     T: 'A',
