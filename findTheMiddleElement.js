@@ -2,7 +2,6 @@
 // Date Completed 03-27-23
 // KYU 7
 
-
 ////////////////////////////////////////////////////////////////////
 // Prompt
 // As a part of this Kata, you need to create a function that when provided with a triplet, returns the index of the numerical element that lies between the other two elements.
@@ -21,16 +20,18 @@
 
 // 10 is the number that fits between 5 and 14 and the index of 10 in the input array is 1.
 
-
 ///////////////////////////////////////////////////////////////////
 // My Solution
-function gimme (triplet) {
-    for(let i = 0; i < triplet.length; i++){
-      if(triplet[i] !== Math.max(...triplet) && triplet[i] !== Math.min(...triplet)){
-        return triplet.indexOf(triplet[i])
-      }
+const gimme = (triplet) => {
+  for (let i = 0; i < triplet.length; i++) {
+    if (
+      triplet[i] !== Math.max(...triplet) &&
+      triplet[i] !== Math.min(...triplet)
+    ) {
+      return triplet.indexOf(triplet[i]);
     }
   }
+};
 
 ////////////////////////////////////////////////////////////////////
 // Favorite Solution
