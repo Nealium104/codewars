@@ -19,20 +19,19 @@
 
 // Hint: Don't forget to check for bad values like null/undefined
 
-
 ///////////////////////////////////////////////////////////////////
 // My Solution
 function countSheeps(arrayOfSheep) {
-    let result = 0;
-    for (let i = 0; i < arrayOfSheep.length; i++) {
-      if (arrayOfSheep[i] === true) result ++;
-    }
-    return result;
+  let result = 0;
+  for (let i = 0; i < arrayOfSheep.length; i++) {
+    if (arrayOfSheep[i] === true) result++;
   }
+  return result;
+}
 
 ////////////////////////////////////////////////////////////////////
 // Favorite Solution
-// function countSheeps(arrayOfSheeps) {
+// function countSheeps(arrayOfSheep) {
 //   return arrayOfSheeps.filter(Boolean).length;
 // }
 
