@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "wCtJx//PrTJ8K1+p48DX4snydZmH1TpDzZzHvfBBVDbcwfZq9o+ErVRjGAwGhX4Bi8ITacDRbqsEEed6Q4wcCQ==",
+  "dgSpecHash": "p7zNvJY1I45aslOV42glGgLG6qrDgOiHq5yz7onHQ2LBCaPoOhYnON+1zPDKPqeHb67duaND12RyEPxGARTZFw==",
   "success": true,
   "projectFilePath": "D:\\Coding\\Codewars\\CodeWarsCSharp\\CodeWarsCSharp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nealg\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\nealg\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\nealg\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\nealg\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
