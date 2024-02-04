@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-public class Kata
+public class volumeCuboids
 {
   public static int FindDifference(int[] a, int[] b)
   {
